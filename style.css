@@ -1,0 +1,38 @@
+.outline{
+    text-align: center;  
+}
+
+table{
+    border-collapse: collapse;
+    border: solid 2px black;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+table td{
+    border: solid 1px black;
+    width: 100px;
+    height: 100px;
+    font-size: 3em;   /*親要素の文字に対して３倍*/
+}
+
+.stop {
+    background-color:#ff0000;
+}
+
+.spin {
+    background-color:#ffcc99;
+}
+
+input[type=button] {
+    font-size: 1.1em;
+    display : block;
+    width: 110px;
+    padding: 5px 0;
+    margin: 0 5px;
+    }
+    .buttons{
+    margin-top: 10px;
+    display:flex;
+    justify-content:center;
+    }
